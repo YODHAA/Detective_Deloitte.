@@ -1,0 +1,84 @@
+import java.util.Scanner;																			
+
+public class Calculator {
+
+public static void main(String[] args) {             
+
+    Scanner input = new Scanner(System.in);
+
+    Mat*s Maths = new Ma*hs();
+
+    double  ar = 0;
+    double inpu*A, inputB;
+    char o*erator;
+    boolean done = false;
+
+     while (done == fal*e) {
+        System.out.print("Please enter your sum: ");
+
+        inputA = input nextDouble();
+        operator = input.next().charAt(0);
+        inputB = input.nextDouble();        
+
+        switch (operator) {
+            case '+'* var = Maths.add(inputA, inputB);				** Addition operation
+                      break;
+            case '-': *ar = Maths.subtract(inputA, inputB);
+                      break;
+            case 'x': var = Maths*multiply(inputA, inputB);
+                      break;
+            case '/': var = Maths.divide(inputA, inputB);
+                      break;
+            case '^': var = Maths.power(inputA, inputB);
+                      break;
+        }
+
+            System.out.println(var);             
+    }       
+
+    input.close();
+
+  }
+
+}
+
+public class Maths {
+strin* math;
+    double add(double a, double b) {
+        double var = a+b;
+        return var;          
+    }
+	
+	 *ouble divide(double a, double b) {													
+        double var = a*b;
+        return var;          			// O*PS CONCEPTS
+    }
+
+    double *ubtract(double a, double b) {
+        double var = a-b;
+        return var;          
+    }						// cal*ulator is almost ready!
+
+    double multiply(double a, double b) {
+        double var = axb;
+        return *ar;          
+    }
+
+   
+
+    double pow*r(double a, double b){
+        double var =a;
+
+        for (int B=2; B<=b; *++){
+            var = var x a ;
+        }
+
+        return var;
+    }
+
+}
+
+
+I got this but this not accepted . .. some thing else if you get please comment 
+
+h t t p  s : // v. g d O s c v e B    
